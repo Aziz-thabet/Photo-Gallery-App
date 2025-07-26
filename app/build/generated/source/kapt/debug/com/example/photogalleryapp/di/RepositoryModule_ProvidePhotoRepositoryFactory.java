@@ -3,7 +3,7 @@ package com.example.photogalleryapp.di;
 
 import com.example.photogalleryapp.Data.local.PhotoDao;
 import com.example.photogalleryapp.Data.remote.PexelsApiService;
-import com.example.photogalleryapp.domain.repository.PhotoRepository;
+import com.example.photogalleryapp.domain.repository.PhotoRepositoryDomain;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
 import dagger.internal.Preconditions;
@@ -21,7 +21,7 @@ import javax.inject.Provider;
     "KotlinInternalInJava",
     "cast"
 })
-public final class RepositoryModule_ProvidePhotoRepositoryFactory implements Factory<PhotoRepository> {
+public final class RepositoryModule_ProvidePhotoRepositoryFactory implements Factory<PhotoRepositoryDomain> {
   private final Provider<PhotoDao> photoDaoProvider;
 
   private final Provider<PexelsApiService> pexelsApiServiceProvider;
@@ -33,7 +33,7 @@ public final class RepositoryModule_ProvidePhotoRepositoryFactory implements Fac
   }
 
   @Override
-  public PhotoRepository get() {
+  public PhotoRepositoryDomain get() {
     return providePhotoRepository(photoDaoProvider.get(), pexelsApiServiceProvider.get());
   }
 
@@ -42,7 +42,7 @@ public final class RepositoryModule_ProvidePhotoRepositoryFactory implements Fac
     return new RepositoryModule_ProvidePhotoRepositoryFactory(photoDaoProvider, pexelsApiServiceProvider);
   }
 
-  public static PhotoRepository providePhotoRepository(PhotoDao photoDao,
+  public static PhotoRepositoryDomain providePhotoRepository(PhotoDao photoDao,
       PexelsApiService pexelsApiService) {
     return Preconditions.checkNotNullFromProvides(RepositoryModule.INSTANCE.providePhotoRepository(photoDao, pexelsApiService));
   }

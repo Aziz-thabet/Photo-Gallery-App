@@ -100,7 +100,7 @@ public final class PhotoDao_Impl implements PhotoDao {
 
   @Override
   public Object insertPhotos(final List<PhotoEntity> photos,
-      final Continuation<? super Unit> $completion) {
+      final Continuation<? super Unit> arg1) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       @NonNull
@@ -114,11 +114,11 @@ public final class PhotoDao_Impl implements PhotoDao {
           __db.endTransaction();
         }
       }
-    }, $completion);
+    }, arg1);
   }
 
   @Override
-  public Object deleteAll(final Continuation<? super Unit> $completion) {
+  public Object deleteAll(final Continuation<? super Unit> arg0) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       @NonNull
@@ -137,11 +137,11 @@ public final class PhotoDao_Impl implements PhotoDao {
           __preparedStmtOfDeleteAll.release(_stmt);
         }
       }
-    }, $completion);
+    }, arg0);
   }
 
   @Override
-  public Object getAllPhotos(final Continuation<? super List<PhotoEntity>> $completion) {
+  public Object getAllPhotos(final Continuation<? super List<PhotoEntity>> arg0) {
     final String _sql = "SELECT * FROM photos";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
     final CancellationSignal _cancellationSignal = DBUtil.createCancellationSignal();
@@ -224,7 +224,7 @@ public final class PhotoDao_Impl implements PhotoDao {
           _statement.release();
         }
       }
-    }, $completion);
+    }, arg0);
   }
 
   @NonNull

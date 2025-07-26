@@ -1,15 +1,33 @@
-*.iml
-.gradle
+# Generated files by Android Studio and Gradle
+.gradle/
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+.idea/
+/build/
+/app/build/
+.cxx/
+.externalNativeBuild/
+.kotlin/
+.DS_Store # macOS specific
+
+# Compiled files
+*.apk
+*.aab
+*.aar
+*.dex
+*.class
+
+# Keystore files (VERY IMPORTANT: Do NOT commit your keystore!)
+*.jks
+*.keystore
+debug.keystore
+
+# Room Database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite-journal
+
+# Logs and temporary files
+*.log
+*.hprof # Android Profiling heap dumps
+*.iml

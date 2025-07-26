@@ -51,8 +51,7 @@ class HomeScreen : AppCompatActivity() {
 
         themeSwitch = binding.switchMode
         recyclerView = binding.photoListRv
-        recyclerView.layoutManager =
-            StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
+        recyclerView.layoutManager = StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
 
         photoAdapter = PhotoAdapter(emptyList())
         recyclerView.adapter = photoAdapter
@@ -73,6 +72,10 @@ class HomeScreen : AppCompatActivity() {
                 launch {
                     viewModel.photos.collect { photoList ->
                         photoAdapter.updatePhotos(photoList)
+                        if (photoList.isNotEmpty() && photoAdapter.itemCount > 0) {
+                            val initialScrollPosition = photoAdapter.itemCount / 2
+                            (recyclerView.layoutManager as? StaggeredGridLayoutManager)?.scrollToPosition(initialScrollPosition)
+                        }
                     }
                 }
 

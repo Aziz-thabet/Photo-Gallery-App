@@ -1,4 +1,4 @@
-// photogalleryapp/local/PhotoEntity.kt
+// photogalleryapp/Data/local/PhotoEntity.kt
 package com.example.photogalleryapp.Data.local
 
 import androidx.room.Entity

@@ -10,7 +10,7 @@ import com.bumptech.glide.Glide
 import com.example.photogalleryapp.domain.models.PhotoModel
 import com.example.photogalleryapp.R
 
-class PhotoAdapter(private var photos: List<PhotoModel>) : RecyclerView.Adapter<PhotoAdapter.PhotoViewHolder>() { // تم التغيير إلى PhotoModel
+class PhotoAdapter(private var photos: List<PhotoModel>) : RecyclerView.Adapter<PhotoAdapter.PhotoViewHolder>() {
 
     class PhotoViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val imageView: ImageView = view.findViewById(R.id.itemImageView)
@@ -22,14 +22,24 @@ class PhotoAdapter(private var photos: List<PhotoModel>) : RecyclerView.Adapter<
     }
 
     override fun onBindViewHolder(holder: PhotoViewHolder, position: Int) {
-        val photo = photos[position]
-        Glide.with(holder.itemView)
+        if (photos.isEmpty()) return
+
+        val actualPosition = position % photos.size
+        val photo = photos[actualPosition]
+
+        Glide.with(holder.itemView.context)
             .load(photo.imageUrl)
             .placeholder(android.R.drawable.progress_indeterminate_horizontal)
             .into(holder.imageView)
     }
 
-    override fun getItemCount(): Int = photos.size
+    override fun getItemCount(): Int {
+        if (photos.isEmpty()) {
+            return 0
+        }
+
+        return 1000
+    }
 
     fun updatePhotos(newPhotos: List<PhotoModel>?) {
         if (newPhotos != null) {

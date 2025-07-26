@@ -1,20 +1,28 @@
 package com.example.photogalleryapp.Data.remote
 
+import com.google.gson.annotations.SerializedName
+
 data class PexelsResponse(
-    val photos: List<Photo>
+    val photos: List<PhotoRemote>,
+    val page: Int,
+    @SerializedName("per_page")
+    val perPage: Int
 )
 
-data class Photo(
+data class PhotoRemote(
     val id: Int,
     val photographer: String,
-    val src: PhotoSrc
+    val src: PhotoSrcRemote
 )
 
-data class PhotoSrc(
+data class PhotoSrcRemote(
     val original: String,
-    val medium: String,
-    val portrait: String,
     val large: String?,
-    val tiny: String?,
-    val landscape: String?
+    @SerializedName("large2x")
+    val large2x: String?,
+    val medium: String,
+    val small: String?,
+    val portrait: String,
+    val landscape: String?,
+    val tiny: String?
 )
