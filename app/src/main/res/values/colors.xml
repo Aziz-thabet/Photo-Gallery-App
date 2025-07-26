@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A427F</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="textColor">#1A427F</color>
+    <color name="switch_track_color">#CCCCCC</color>
+
+</resources>

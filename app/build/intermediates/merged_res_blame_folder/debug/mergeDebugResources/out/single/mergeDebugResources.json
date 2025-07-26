@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/drawable_profile_image.jpg.flat",
+        "source": "com.example.photogalleryapp-main-55:/drawable/profile_image.jpg"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/layout_activity_splash.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/drawable_switch_thumb.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/drawable/switch_thumb.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/drawable_roote_img.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/drawable/roote_img.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.photogalleryapp-main-55:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/drawable_track.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/drawable/track.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/drawable_online_network_wifi_24.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/drawable/online_network_wifi_24.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.photogalleryapp-main-55:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.photogalleryapp-main-55:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/drawable_thumb.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/drawable/thumb.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/drawable_thumbtrue.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/drawable/thumbtrue.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/drawable_no_internet_4_24.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/drawable/no_internet_4_24.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.photogalleryapp-main-55:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.photogalleryapp-main-55:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.photogalleryapp-main-55:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/drawable_switch_track.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/drawable/switch_track.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/layout_activity_home_screen.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/layout/activity_home_screen.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/xml_backup_rules.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/drawable_ic_moon1.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/drawable/ic_moon1.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/layout_item_imge.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/layout/item_imge.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.photogalleryapp-main-55:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.photogalleryapp-main-55:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.photogalleryapp-main-55:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.photogalleryapp-main-55:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/drawable_ic_sun.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/drawable/ic_sun.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/drawable_thumbfalse.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/drawable/thumbfalse.xml"
+    },
+    {
+        "merged": "com.example.photogalleryapp-debug-53:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.photogalleryapp-main-55:/drawable/ic_launcher_foreground.xml"
+    }
+]

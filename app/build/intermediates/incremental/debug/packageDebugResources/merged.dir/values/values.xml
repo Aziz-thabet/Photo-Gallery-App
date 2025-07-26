@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorPrimary">#1A427F</color>
+    <color name="switch_track_color">#CCCCCC</color>
+    <color name="textColor">#1A427F</color>
+    <string name="app_name">Photo Gallery App</string>
+    <style name="Base.Theme.PhotoGalleryApp" parent="Theme.Material3.DayNight.NoActionBar">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorOnPrimary">@color/colorOnPrimary</item>
+
+
+    <item name="android:colorBackground">@color/backgroundColor</item>
+    <item name="background">@color/backgroundColor</item>
+
+
+    <item name="android:textColor">@color/textColor</item>
+
+</style>
+</resources>

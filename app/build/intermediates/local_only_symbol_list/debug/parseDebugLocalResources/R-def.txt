@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+color backgroundColor
+color colorOnPrimary
+color colorPrimary
+color switch_track_color
+color textColor
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_moon1
+drawable ic_sun
+drawable no_internet_4_24
+drawable online_network_wifi_24
+drawable profile_image
+drawable roote_img
+drawable switch_thumb
+drawable switch_track
+drawable thumb
+drawable thumbfalse
+drawable thumbtrue
+drawable track
+id itemImageView
+id loadingIndicator
+id main
+id networkStatusIcon
+id photo_list_rv
+id route_icon
+id switch_mode
+layout activity_home_screen
+layout activity_splash
+layout item_imge
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.PhotoGalleryApp
+xml backup_rules
+xml data_extraction_rules
